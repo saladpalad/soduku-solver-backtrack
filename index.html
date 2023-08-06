@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Solver</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon-32x32.png">
+    <style>
+        /* Add style for the buttons */
+        #solve, #reset {
+            background-color: #4CAF50; /* Green background color */
+            color: white; /* White text color */
+            padding: 10px 20px; /* Padding around the text inside the button */
+            border: none; /* Remove default button border */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Change cursor to a hand pointer on hover */
+            margin: 5px; /* Add some margin around the buttons */
+        }
+
+        /* Change button color on hover */
+        #solve:hover, #reset:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Sudoku Solver</h1> 
+    <div id="sudoku"></div>
+    <div class="button-container">
+        <button id="solve">Solve</button>
+        <button id="reset">Reset</button>
+    </div>
+    <div class="feedback">
+        <p id="solution"></p>
+    <script src="game.js"></script>
+</body>
+</html>

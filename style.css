@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  background-image: url('minimalist-wallpaper-34.jpg');
+}
+
+#sudoku{
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.feedback{
+    text-align: center;
+    margin-top: -18px;
+    font-size: 20px;
+}
+
+#sudoku input{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    border-spacing: 0;
+    border: 2px black solid;
+    font-family: bold;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.in-even-box{
+    background-color: lightgoldenrodyellow
+}
+
+h1 {
+    text-align: center;
+    top: 100%;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 5px black;
+  }
+
+/* Center the button container horizontally */
+.button-container {
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Add some margin between the buttons if needed */
+.button-container button {
+    margin: 5px;
+}
